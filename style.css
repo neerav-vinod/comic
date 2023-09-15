@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Poppins', sans-serif; 
+    color: aliceblue;
+}
+
+body{
+    background-color: black;
+}
+
+/* navbar */
+
+.dec{
+    color: rgb(0, 179, 255);
+}
+
+.navbar{
+   
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+ 
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right:55px ;
+    
+}
+
+.navigation{
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.roundnav{
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact{
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    background-color: rgb(0, 179, 255);
+}
+
+.navbar{
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+
+}
+
+/* rounded comics navbar */
+.rrow{
+    height: 100px;
+    width: 50px;
+    padding: 70px;
+}
+
+.rimage{
+    background-color: brown;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;;
+}
+
+.rp{
+    text-align: center;
+}
+
+.img1{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fres.cloudinary.com%2Fteepublic%2Fimage%2Fprivate%2Fs--yYsCtITt--%2Ft_Preview%2Fb_rgb%3A191919%2Cc_limit%2Cf_jpg%2Ch_630%2Cq_90%2Cw_630%2Fv1524399792%2Fproduction%2Fdesigns%2F2616629_0.jpg&f=1&nofb=1&ipt=e887b4772727e4d672a100b959c8e041ed9adea133b6965992ec321346000de2&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.img2{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc7%2F82%2F4f%2Fc7824f2ee47717fe08f756248105f231.png&f=1&nofb=1&ipt=7273f83f4cdffb885feb3b323d0bb3a99031588aa41165b88e0b7fbb6dd8037f&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.comicbasics.com%2Fwp-content%2Fuploads%2F2018%2F10%2FImage-Comics-Logo.png&f=1&nofb=1&ipt=be9f88ad0a8c9d13c43f104c11747bf167a4876fbf6085c406672b8ac7d818cb&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img4{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.europosters.eu%2Fimage%2F1300%2F26314.jpg&f=1&nofb=1&ipt=ab123e4501967441fcde6735dc9470274fa1fa394a644cb1a7c70250bd32d7ed&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.rp1{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.rp2{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.bgimg{
+    background-image: url('./images/comic\ 2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    opacity: 0.4;
+}
+
+/* Top Picks */
+
+.products{
+    margin-top: 50px;
+}
+
+.toph{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col{
+    height: 400px;
+    width: 200px;
+    padding: 30px;
+    margin: 50px;
+}
+
+.pimg{
+    background-color: azure;
+    height: 300px;
+
+}
+
+.pimg1{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.F_UKPfcqrgFgivVa2DJ2FwHaK4%26pid%3DApi&f=1&ipt=60d0cf07386b731f6ac592d5177bc8f72a161e36b437fa89319e95c55a2ce5a2&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.pimg2{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffreshcomics.s3.amazonaws.com%2Fissue_covers%2FOCT190678.jpg&f=1&nofb=1&ipt=063d3d19998a806dd3b11f666ae8c325724f90978734344b72cf7398fb6d2d2c&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.pimg3{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-4r05r7WfN6k%2FUe5X5mFbAzI%2FAAAAAAAAARI%2FarZXp0YTi3A%2Fs1600%2Ffolder.jpg&f=1&nofb=1&ipt=9e9ce598f03e02764317282759ee2c58bd31a60bf0e2aa17e4d571df62b6966e&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.pimg4{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-nogKTYc8H0M%2FVv-l6VZrXcI%2FAAAAAAAAETc%2FEkfg8eDA6uYOvB3d_X8usAfUhRPQ6y7iw%2Fs900%2FThe-Death-of-Superman-Comics-Cover.jpg&f=1&nofb=1&ipt=db2d5ff409363c4f0f2fcacec0159b09707c7a2c544486cafb8223c9a2617e02&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.buy{
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: rgb(0, 179, 255);
+}
+
+.pimg5{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.annihil.us%2Fu%2Fprod%2Fmarvel%2Fi%2Fmg%2F2%2F90%2F570beb8102260%2Fdetail.jpg&f=1&nofb=1&ipt=4afbd4c142d9ef9fc00e04edd57f02901b8b856c48429a85306751d07a0ae64e&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.pimg6{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finsidepulse.com%2Fwp-content%2Fuploads%2F2018%2F11%2FAvengers-700-aka-10-spoilers-0-A.jpg&f=1&nofb=1&ipt=120b81325c39463e5184a458b6cf007e519904d2cf6500a3e393c03d0e3bd091&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.pimg7{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fcomics%2Fimages%2Fb%2Fb5%2FInvincible_Iron_Man_593.jpg%2Frevision%2Flatest%3Fcb%3D20171024093505&f=1&nofb=1&ipt=c87b8635a176bf0aaac9d9a85f62fd363bc851fbd914ae580bfdaac5459ab46e&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+.pimg8{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-9HKQr0jaED4%2FVntfwlFHrdI%2FAAAAAAAAk4o%2FehPkPlLCysE%2Fs0-Ic42%2FRCO001.jpg&f=1&nofb=1&ipt=198c793e6e26b1b3cec29f35a28bbb2f821aeeec8599fd11ed2135a96fcd7d1d&ipo=images');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
